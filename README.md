@@ -9,19 +9,19 @@ Analyze NYC building-level energy and water disclosure data (Local Law 84)
 to understand performance patterns and predict ENERGY STAR scores using
 machine learning techniques.
 
-* Dataset
+-- Dataset
 - Source: NYC Open Data (Local Law 84 – Calendar Year 2016)
 - Type: Government building disclosure dataset
 - Description: Contains building characteristics, energy consumption,
   water usage, and ENERGY STAR performance scores.
 
-* Tools & Technologies
+-- Tools & Technologies
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - Matplotlib
 
-* Approach
+-- Approach
 - Performed data cleaning by handling missing values, correcting data
   types, and removing high-missing and noisy columns.
 - Conducted feature selection and preprocessing to prepare a clean
@@ -32,7 +32,7 @@ machine learning techniques.
   (A–F) and reframed the problem as a classification task.
 - Trained and evaluated a Random Forest Classifier on the graded target.
 
-* Results
+-- Results
 - Decision Tree Regressor achieved **R² ≈ 0.77**, significantly improving
   over baseline regression.
 - Random Forest Classifier achieved **~63% accuracy** with macro F1 ≈ 0.63
